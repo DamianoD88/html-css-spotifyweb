@@ -4,8 +4,35 @@
     box-sizing: border-box;
 }
 
-header {
+main {
     display: flex;
-    justify-content: flex-end;
-    height: 40px;
+    justify-content: start;
+
+}
+
+.col-sx {
+    height: 100vh;
+    width: 200px;
+    background-color: red;
+}
+
+.col-dx {
+    height: 100vh;
+    min-width: 100%;
+    background-color: blue;
+}
+
+.col-dx-header {
+    height: 100px;
+    min-width: 100%;
+    background-color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color:#222222;
+    color: white;
+    height: 100px;
 }
