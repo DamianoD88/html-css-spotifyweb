@@ -144,3 +144,8 @@
     align-items: flex-end;
 }
 
+/* flexbox */
+
+.flex: {display: flex;}
+
+.overflow-y {overflow-y: auto;}
