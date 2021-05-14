@@ -100,17 +100,20 @@ h2 {
 
 .sottotitoli {
     font-size: 12px;
+    margin-top: 20px;
     color: #7d7f84;
 }
 
 .box-nested {
+    margin-top: 20px;
     width: 100%;
     color: white;
 
-}   
+}
+
 .album
 {
-    margin:10px;
+    margin: 50px 50px;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -141,6 +144,6 @@ footer{
 
 }
 
-@media screen ((max-width: 600px)) {
+@media screen (max-width: 600px)) {
     
 }
