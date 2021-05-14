@@ -20,6 +20,8 @@ body {
     min-width: 100%;
 }
 
+/* sidebar */
+
 .col-sx {
     
     height: 100vh;
@@ -27,10 +29,26 @@ body {
     background-color: #000;
 }
 
+.up-side {
+    height: calc(100% - 300px);
+}
+
+.spot-logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.down-side {
+    height: 300px;
+}
+
 .col-dx {
     height: 100vh;
     width: calc(100% - 200px );
     background-color: #141922;
+    overflow: hidden;
+    overflow-y: auto;
+
 }
 
 .menu {
@@ -41,10 +59,12 @@ body {
 .col-dx-header {
     height: 100px;
     min-width: 100%;
+    position: fixed;
     background-color: black;
 }
 
 .col-dx-main {
+    margin-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +84,10 @@ h2 {
 .album img {
     width: 250px;
     height: 250px;   
+}
+
+.radius {
+    border-radius: 50%;
 }
 
 .titles {
@@ -93,12 +117,30 @@ h2 {
     align-items: center;
 }
 
+/* sidebar */
+
+
+
+.spotify-logo--text {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
 
 footer{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     height: 100px;
     background-color:#222222;
     color: white;
+    
 
+}
+
+@media screen ((max-width: 600px)) {
+    
 }
