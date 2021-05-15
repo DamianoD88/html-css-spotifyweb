@@ -34,6 +34,7 @@ body {
     padding:0px 20px 20px 20px;
     display:flex;
     flex-direction:column;
+
 }
 
 .menu-block
@@ -120,6 +121,51 @@ i {
 
 }
 
+/* parte sotto sidebar */
+
+.down-side {
+    position: relative;
+    height: 300px;
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-giu {
+    position: absolute;
+    bottom: 10px;
+    min-width: 260px;
+}
+
+.footer-sidebar {
+    padding-bottom: 10px;
+    margin-right: 7px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid gray;
+
+}
+
+.john-doe {
+    padding-top: 10px;
+    margin-right: 7px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.download {
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: gray;
+    cursor: pointer;
+    height: 20px;
+}
+
+
+
 /* row loghi superiori */
 
 .row .col-xs-2 {
@@ -140,9 +186,7 @@ i {
     color: white;
 }
 
-.down-side {
-    height: 300px;
-}
+
 
 .col-dx {
     height: 100vh;
