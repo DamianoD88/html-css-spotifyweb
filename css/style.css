@@ -36,6 +36,52 @@ body {
     flex-direction:column;
 }
 
+.menu-block
+{
+    display:flex;
+    align-items:center;
+    width:100%;
+    color:gray;
+    margin:10px 0px;
+}
+
+.block-logo
+{
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-block img
+{
+    height:28px;
+    margin-right:3px;
+    margin-left: 10px;
+    color: gray;
+    
+    
+}
+
+.menu-block:hover img:hover   {
+    color: white;
+    cursor: pointer;
+
+    
+}
+
+.home {
+    font-size: 14px;
+    color: gray;
+}
+
+.home:hover {
+    color: white;
+    cursor: pointer;
+    border-left: yellowgreen;
+}
+
+
 /* row lorghi superiori */
 
 .row .col-xs-2 {
@@ -98,28 +144,7 @@ h2 {
     margin-left: 20px;
 }
 
-.menu-block
-{
-    display:flex;
-    align-items:center;
-    width:100%;
-    color:white;
-    margin:10px 0px;
-}
 
-.block-logo
-{
-    height:100px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-block img
-{
-    height:20px;
-    margin-right:3px;
-}
 
 
 .album img {
