@@ -46,6 +46,13 @@ body {
     margin:10px 0px;
 }
 
+.spot-logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: -100px;
+}
+
 .block-logo
 {
     height:100px;
@@ -168,9 +175,7 @@ i {
 
 /* row loghi superiori */
 
-.row .col-xs-2 {
 
-}
 
 .fontawesome {
     height: 30px;
@@ -272,24 +277,101 @@ h2 {
 
 
 
-.spotify-logo--text {
-    height: 150px;
-    width: 150px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
 
+/* footer */
 
 
 footer{
     width: 100%;
     display: flex;
-    justify-content: space-between;
     height: 100px;
     background-color:#222222;
     color: white;
-    
+}
 
+.footer-first {
+    padding-bottom: 10px;
+    margin-right: 7px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+
+}
+
+.title-group {
+    margin: 15px;
+}
+
+.home-group {
+    font-size: 14px;
+    color: white;
+}
+
+.home-brano {
+    font-size: 10px;
+    color: gray;
+}
+
+.like i {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-top: 42px;
+    margin-left: 20px;
+    color: gray;
+   
+}
+
+.com {
+  padding: 0px 20px;  
+  font-size: 25px;
+
+}
+
+.description {
+    padding: 25px 10px;
+}
+
+.footer-second {
+    display: flex;
+    justify-content: center;
+    min-width: 800px;
+}
+
+.gray {
+    color: #fff;
+    background-color: gray;
+}
+
+.timeline .largetime {
+    color: lightgray;
+    background-color: gray;
+}
+
+.comand {
+    display: flex;
+    align-items: center;
+}
+
+#play {
+    font-size: 20px;
+}
+
+.comand i {
+    margin: 0 15px;
+    font-size: 20px;
+ 
+}
+
+.footer-third {
+    display: flex;
+    flex-grow: 4;
+    align-items: center;
+
+}
+
+.footer-third i {
+    font-size: 14px;
+    margin: 0 15px;
 }
 
 @media screen (max-width: 600px)) {
