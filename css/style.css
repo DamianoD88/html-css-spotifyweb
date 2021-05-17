@@ -373,6 +373,10 @@ footer{
     cursor: pointer;
 }
 
+.row .dx-footer {
+    height: 100%;
+}
+
 /* end pulsanti e barra del tempo centrali */
 
 /* end prova diversa */
