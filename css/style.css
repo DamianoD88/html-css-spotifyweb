@@ -336,6 +336,13 @@ footer{
 
 }
 
+.icons i:hover {
+    font-size: 20px;
+    margin-right: 15px;
+    color: white;
+
+}
+
 
 /* end prova diversa */
 

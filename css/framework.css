@@ -14,7 +14,7 @@
     display: flex; flex-wrap: wrap;
 }
 
-.row-vert{
+.row-column{
     flex-direction: column;
 }
 
