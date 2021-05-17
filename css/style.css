@@ -343,6 +343,37 @@ footer{
 
 }
 
+/* pulsanti e barra del tempo centrali */
+
+.row .row-column {
+    height: 100%;
+    text-align: center;
+}
+
+.pulsanti {
+    display: flex;
+
+}
+
+.pulsanti i {
+    font-size: 20px;
+    margin: 10px 20px;
+
+}
+
+#play {
+    font-size: 40px;
+}
+
+.bar {
+    width: 40%;
+    height: 4px;
+    border-radius: 5px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* end pulsanti e barra del tempo centrali */
 
 /* end prova diversa */
 
