@@ -24,9 +24,10 @@ body {
 
 .col-sx {
 
-    height: 100vh;
+    height: calc(100vh - 110px);
     width: 300px;
     background-color: #000;
+    overflow: hidden;
 }
 
 .up-side {
@@ -197,7 +198,7 @@ i {
 
 
 .col-dx {
-    height: 100vh;
+    height:calc(100vh - 110px);
     width: calc(100% - 300px );
     background-color: #141922;
     overflow: hidden;
