@@ -24,7 +24,7 @@ body {
 
 .col-sx {
 
-    height: calc(100vh - 110px);
+    height: calc(100vh - 100px);
     width: 300px;
     background-color: #000;
     overflow: hidden;
@@ -91,8 +91,6 @@ body {
 }
 
 /* playlist */
-
-
 
 .playlist-side{
     overflow:hidden;
@@ -179,8 +177,6 @@ i {
 
 /* row loghi superiori */
 
-
-
 .fontawesome {
     height: 30px;
     width: 30px;
@@ -195,10 +191,8 @@ i {
     color: white;
 }
 
-
-
 .col-dx {
-    height:calc(100vh - 110px);
+    height:calc(100vh - 100px);
     width: calc(100% - 300px );
     background-color: #141922;
     overflow: hidden;
@@ -257,8 +251,8 @@ h2 {
 }
 
 .album img {
-    width: 250px;
-    height: 250px;
+    width: 90%;
+
 }
 
 .radius {
@@ -288,7 +282,6 @@ h2 {
 
 .album
 {
-    margin: 50px 50px;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -297,16 +290,12 @@ h2 {
 
 /* sidebar */
 
-
-
-
 /* footer */
-
 
 footer{
     width: 100%;
     display: flex;
-    /* height: 100px; */
+    height: 100px;
     background-color:#222222;
     color: white;
 }
@@ -397,93 +386,6 @@ footer{
 }
 
 /* end pulsanti e barra del tempo centrali */
-
-/* end prova diversa */
-
-/* .footer-first {
-    padding-bottom: 10px;
-    margin-right: 7px;
-    margin-left: 10px;
-    display: flex;
-    justify-content: start;
-
-}
-
-.title-group {
-    margin: 15px;
-}
-
-.home-group {
-    font-size: 14px;
-    color: white;
-}
-
-.home-brano {
-    font-size: 10px;
-    color: gray;
-}
-
-.like i {
-    font-size: 14px;
-    margin-top: 20px;
-    margin-top: 42px;
-    margin-left: 20px;
-    color: gray;
-
-}
-
-.com {
-  padding: 0px 20px;
-  font-size: 25px;
-
-}
-
-.description {
-    padding: 25px 10px;
-}
-
-.footer-second {
-    display: flex;
-    justify-content: center;
-    min-width: 800px;
-}
-
-.gray {
-    color: #fff;
-    background-color: gray;
-}
-
-.timeline .largetime {
-    color: lightgray;
-    background-color: gray;
-}
-
-.comand {
-    display: flex;
-    align-items: center;
-}
-
-#play {
-    font-size: 20px;
-}
-
-.comand i {
-    margin: 0 15px;
-    font-size: 20px;
-
-}
-
-.footer-third {
-    display: flex;
-    flex-grow: 4;
-    align-items: center;
-
-}
-
-.footer-third i {
-    font-size: 14px;
-    margin: 0 15px;
-} */
 
 @media screen (max-width: 600px)) {
 
