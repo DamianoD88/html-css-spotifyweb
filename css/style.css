@@ -23,7 +23,7 @@ body {
 /* sidebar */
 
 .col-sx {
-    
+
     height: 100vh;
     width: 300px;
     background-color: #000;
@@ -67,15 +67,15 @@ body {
     margin-right:3px;
     margin-left: 10px;
     color: gray;
-    
-    
+
+
 }
 
 .menu-block:hover img:hover   {
     color: white;
     cursor: pointer;
 
-    
+
 }
 
 .home {
@@ -171,7 +171,10 @@ i {
     height: 20px;
 }
 
-
+.john-doe img {
+    background-color: gray;
+    border-radius: 50%;
+}
 
 /* row loghi superiori */
 
@@ -183,7 +186,7 @@ i {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 5px;
-    
+
 }
 
 .name-sx {
@@ -236,7 +239,7 @@ h2 {
 
 .album img {
     width: 250px;
-    height: 250px;   
+    height: 250px;
 }
 
 .radius {
@@ -284,12 +287,59 @@ h2 {
 footer{
     width: 100%;
     display: flex;
-    height: 100px;
+    /* height: 100px; */
     background-color:#222222;
     color: white;
 }
 
-.footer-first {
+/* prova diversa */
+
+.album-cover {
+    width: 20%;
+    padding: 20px;
+
+}
+
+.album-cover img {
+    width: 100%;
+}
+
+.title-album {
+    margin-left: 0;
+    margin-top: 6px;
+    font-size: 12px;
+
+}
+
+.title-album:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sinister {
+    margin-top: 24px;
+    margin-bottom: 2px;
+    
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    padding-left: 38px;
+
+}
+
+.icons i {
+    font-size: 16px;
+    margin-right: 15px;
+    color: gray;
+
+}
+
+
+/* end prova diversa */
+
+/* .footer-first {
     padding-bottom: 10px;
     margin-right: 7px;
     margin-left: 10px;
@@ -318,11 +368,11 @@ footer{
     margin-top: 42px;
     margin-left: 20px;
     color: gray;
-   
+
 }
 
 .com {
-  padding: 0px 20px;  
+  padding: 0px 20px;
   font-size: 25px;
 
 }
@@ -359,7 +409,7 @@ footer{
 .comand i {
     margin: 0 15px;
     font-size: 20px;
- 
+
 }
 
 .footer-third {
@@ -372,8 +422,8 @@ footer{
 .footer-third i {
     font-size: 14px;
     margin: 0 15px;
-}
+} */
 
 @media screen (max-width: 600px)) {
-    
+
 }
