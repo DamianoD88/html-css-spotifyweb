@@ -217,6 +217,26 @@ i {
     background-color: black;
 }
 
+.upgrade {
+    position: fixed;
+    width: calc(100% - 300px);
+    height: 90px;
+
+}
+
+.btn {
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    line-height: 90px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 20px;
+
+}
+
 .col-dx-main {
     margin-top: 120px;
     display: flex;
@@ -233,9 +253,6 @@ h2 {
 .col-xs-2 .sottotitoli {
     margin-left: 20px;
 }
-
-
-
 
 .album img {
     width: 250px;
