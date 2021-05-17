@@ -387,6 +387,81 @@ footer{
 
 /* end pulsanti e barra del tempo centrali */
 
-@media screen (max-width: 600px)) {
+@media screen and (max-width:540px){
+
+    .spot-logo {
+        height: 30px;
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 93px;
+    }
+
+    .col-sx {
+        height: calc(100vh - 100px);
+        width: 60px;
+        background-color: #000;
+        overflow: hidden;
+    }
+
+    .menu-block {
+        display:flex;
+        flex-direction:start;
+        width:100%;
+        color:gray;
+        margin:10px 0px;
+    }
+
+   .home {
+       display: none;
+    }
+
+   .playlist-side {
+       display: none;
+    }
+
+   .down-side {
+    position: relative;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    }
+
+   .footer-sidebar {
+    display: flex;
+    justify-content: start;
+    border: none;
+    margin-left: 4px;
+
+    }
+
+    .john-doe {
+        padding-top: 10px;
+        margin-right: 7px;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .download {
+        margin-left: none;
+        margin-right: 10px;
+        margin-right: 0px;
+        margin: 0;
+        margin-left: 0px;
+    }
+
+    .john-doe img {
+        background-color: gray;
+        border-radius: 50%;
+        height: 30px;
+    }
+
+    /* colonna destra */
+
+    .container-fluid .row.col-xs-2 .col-dx {
+        flex-grow: 1;
+    }
+
+    
+    
 
 }
